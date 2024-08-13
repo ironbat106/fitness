@@ -359,3 +359,73 @@ header p
     margin-right: 16px;
 }
 
+section
+{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.r-e-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 90%;
+    background-color: #333;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.r-e-content
+{
+    flex: 1;
+    padding-right: 20px;
+}
+
+.r-e-h2
+{
+    color: #fff;
+    font-family:'Inter',sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.r-e-p
+{
+    color: rgba(255, 255, 255, 0.7);
+    font-family:'Inter',sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.r-e-btn
+{
+    background-color: #e6533c;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-family:'Inter',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+
+.r-e-img
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.r-e-img img
+{
+    max-width: 100%;
+    border-radius: 15px;
+    object-fit: fill;
+    height: auto;
+}
