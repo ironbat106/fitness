@@ -429,3 +429,37 @@ section
     object-fit: fill;
     height: auto;
 }
+
+.yttxt-content h3
+{
+    margin-top: 100px;
+    color: #fff ;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.yttxt-content p
+{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.yt-container
+{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    box-sizing: border-box;
+}
