@@ -725,3 +725,152 @@ footer
     color: white;
 }
 
+@media screen and (max-width:435px) 
+{
+    body
+    {
+        width: 576px;
+    }
+    .head-content
+    {
+        /* flex-direction: column; */
+        display: flex;
+        align-items: center;
+    }
+
+    .FirstPage
+    {
+        background:linear-gradient(360.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 900%);
+        /* width: 576px ; */
+        height: 150vh;
+        position: relative;
+        overflow: hidden;
+        /* margin-left: 10px; */
+    }
+
+    .mob-h3
+    {
+        font-size: 64px;
+        margin-top: 52px;
+    }
+
+    .mob-ul
+    {
+        /* visibility: hidden; */
+        display: none;
+    }
+    nav ul
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li
+    {
+        margin: 10px 0;
+    }
+
+    .con-con
+    {
+        flex-direction: column;
+        text-align: left;
+        align-items: center;
+        margin-top: 51px;
+        margin-left: 200px;
+    }
+
+    .text-con
+    {
+        margin-right: 390px;
+        width: 475px;
+    }
+
+    .para
+    {
+        font-size: 24px;
+        width: 475px;
+        height: 96px;
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+
+    .butt-con
+    {
+        margin-top: 100px;
+        width: 475px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        justify-items: center;
+        margin-left: 25px;
+    }
+
+    .join-butt, .down-butt
+    {
+        width: 475px;
+        height: 100px;
+        font-size: 36px;
+    }
+
+    .img-con
+    {
+        margin-bottom: 20px;
+        margin-right: 250px;
+        margin-top: 48px;
+    }
+    
+    .stats-con
+    {
+        position: static;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .stat-item
+    {
+        position: relative;
+    }
+
+    .one
+    {
+        position: relative;
+        top: -500px;
+        right: -150px;
+        left: 250px;
+    }
+
+    .two
+    {
+        position: relative;
+        top: -350px;
+        right: 250px;
+    }
+
+    .yt-container
+    {
+        width: 400px;
+        height: 250px;
+    }
+
+    .exer-con
+    {
+        /* flex-direction: column; */
+        grid-template-columns: 1fr;
+    }
+
+    .bmi-calculator
+    {
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+}
