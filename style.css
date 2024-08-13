@@ -78,6 +78,11 @@ nav button
     border-radius: 20px;
 }
 
+.menu-toggle
+{
+    display: none;
+}
+
 .con-con
 {
     width: 90%;
@@ -769,7 +774,7 @@ footer
     .mob-ul
     {
         /* visibility: hidden; */
-        display: none;
+        /* display: none; */
     }
     nav ul
     {
@@ -780,7 +785,22 @@ footer
     nav ul li
     {
         margin: 10px 0;
+        display: none;
     }
+
+    .menu-toggle
+    {
+        display:flex ;
+        align-items:center;
+        justify-content: center;
+        background:none;
+        border: none;
+        font-size: 24px;
+        color: #ffffff;
+        cursor: pointer;
+        margin-bottom: 0;
+        margin-right: 100px;
+     }
 
     .con-con
     {
